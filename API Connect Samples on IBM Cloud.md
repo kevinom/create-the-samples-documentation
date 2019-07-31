@@ -1,4 +1,4 @@
-#API Connect Samples on IBM Cloud
+# API Connect Samples on IBM Cloud
 Date: 12 July 2019
 
 This document details how to install the sample applications that are used in the API Connect Education course **WD514** *Create, Secure, and Publish APIs with API Connect V2018*.
@@ -10,7 +10,8 @@ You are prompted to enter your IBM Id.
 When you are signed on to the IBM Cloud, you can verify your account type from the menu option **Manage > Account**.   
 Then, select **Account Settings** from the navigation list.  
 The type of account is displayed.  
-![Cloud account type](images/Screen Shot 2019-07-12 at 1.50.56 PM.png)  
+Cloud account type:
+<img src="images/Screen Shot 2019-07-12 at 1.50.56 PM.png">
 Your account type must be **Pay-As-You-Go**.  
 ## Navigation
 Click the Navigation icon in the menu.  
@@ -47,7 +48,7 @@ The part describes the applications that you are about to build with the IBM Clo
 | soapsample    | soapsample.mybluemix.net       | Exercise 3    |
 | pricesample   | pricesample.mybluemix.net        | Unit 5        |   
 | lookup-price   | lookup-price.mybluemix.net        | Unit 5        |   
-##Create the toolchain for the first sample (savingsample)
+## Create the toolchain for the first sample (savingsample)
 Click the **DevOps** option from the *side navigation menu*.  
 The toolchains page is displayed.  
 Set **Location** to *Dallas*.  
@@ -87,7 +88,7 @@ You must supply the organization and space values on the page.
 Then, click **Create**.  
 The toolchain is created and displayed on the page.
 <img src="images/Screen Shot 2019-07-15 at 4.45.01 PM.png">   
-###Review the generated toolkit deployment 
+### Review the generated toolkit deployment 
 The *api-samples-savings-toolchain* includes artifacts under the CODE and DELIVER options.  
 Click the **Delivery Pipeline** icon.   
 *** 
@@ -106,7 +107,7 @@ The application deployed, but did not start successfully.
 You will need to coordinate the removal of the existing URL for the sample and the application name change.
 ***  
 
-##Create the toolchain for the second sample (soapample)
+## Create the toolchain for the second sample (soapample)
 Click the navigation icon on the page. Then, click the **DevOps** option from the *side navigation menu*.  
 The toolchains page is displayed.  
 Set **Location** to *Dallas*.  
@@ -146,7 +147,7 @@ You must supply the organization and space values on the page.
 Then, click **Create**.  
 The toolchain is created and displayed on the page.
 <img src="images/Screen Shot 2019-07-16 at 10.14.19 AM.png">   
-###Review the generated toolkit deployment 
+### Review the generated toolkit deployment 
 The *api-samples-soap-toolchain* includes artifacts under the CODE and DELIVER options.  
 Click the **Delivery Pipeline** icon.   
 *** 
@@ -167,7 +168,7 @@ The Build Stage and Deploy stages run successfully.
 **NOTE:** You change the application name to **soapsample** later.  
 You will need to coordinate the removal of the existing URL for the sample and the application name change.
 ***   
-##Create the toolchain for the third sample (pricesample)
+## Create the toolchain for the third sample (pricesample)
 Click the navigation icon on the page. Then, click the **DevOps** option from the *side navigation menu*.  
 The toolchains page is displayed.  
 Set **Location** to *Dallas*.  
@@ -207,7 +208,7 @@ You must supply the organization and space values on the page.
 Then, click **Create**.  
 The toolchain is created and displayed on the page.
 <img src="images/Screen Shot 2019-07-16 at 2.16.16 PM.png">   
-###Review the generated toolkit deployment 
+### Review the generated toolkit deployment 
 The *api-samples-pricing-setup-toolchain* includes artifacts under the CODE and DELIVER options.  
 Click the **Delivery Pipeline** icon.   
 
@@ -261,7 +262,7 @@ You must supply the organization and space values on the page.
 Then, click **Create**.  
 The toolchain is created and displayed on the page.
 <img src="images/Screen Shot 2019-07-16 at 2.16.16 PM.png">   
-###Review the generated toolkit deployment 
+### Review the generated toolkit deployment 
 The *api-samples-lookup-price-toolchain* includes artifacts under the CODE and DELIVER options.  
 Click the **Delivery Pipeline** icon.   
 
@@ -275,7 +276,7 @@ The application deployed, but did not start successfully because the route is al
 **NOTE:** You change the application name to **lookup-price** later.  
 You will need to coordinate the removal of the existing URL route for the sample and the application name change.
 ***    
-##Change the application routes of the tookits that you have built
+## Change the application routes of the tookits that you have built
 The part describes how you change the application routes for the IBM Cloud Toolchains that you have just built.   
 The application route defaults to a route that includes the toolchain name. You must change the of the route to the route that is used by the API Connect application samples.  
 
@@ -299,14 +300,15 @@ Click the *Stage Configuration* icon for the **DEPLOY** stage. This is a cog ico
 In the configuration, navigate to the *Application Name*. Then, change the name from the toolchain name to the corresponding API Connect sample name that is shown in the previous table. 
 <img src="images/Screen Shot 2019-07-31 at 10.02.59 AM.png">      
 Save the change.              
-##What the samples look like when running on the IBM Cloud
-###SOAP Sample
+## What the samples look like when running on the IBM Cloud
+### SOAP Sample
 Run the soap sample application from <http://soapsample.mybluemix.net>  
 When you click getInventory, the correct response is shown:
 <img src="images/Screen Shot 2019-07-16 at 3.30.47 PM.png">   
 You must use the http header rather than the https header when you run this sample. An HTTP status code 200 is returned and the results show a SOAP envelope that includes a number of products that are returned from calling the Liberty back-end application.  
 If you get a 200 response code with only the SOAP XML returned, you are not accessing the Liberty back-end properly.   
-###Saving Sample 
+
+### Saving Sample   
 Run the savings sample application from <https://savingsample.mybluemix.net>   
 The page is displayed:   
 <img src="images/Screen Shot 2019-07-31 at 8.47.09 AM.png">   
@@ -316,18 +318,18 @@ When you type in these value and click **Calculate** the response is displayed a
 <img src="images/Screen Shot 2019-07-31 at 8.53.38 AM.png">   
 Clicking this link displays the result in another browser tab.   
 <img src="images/Screen Shot 2019-07-31 at 8.55.54 AM.png">   
-###Price Sample
+### Price Sample
 Run the price sample application by typing <https://pricesample.mybluemix.net/price/>    
 This output is the result of running the  Cloud Foundry Price Setup application.   
 <img src="images/Screen Shot 2019-07-31 at 9.10.41 AM.png">        
 There are 6 products with product-id values of 1 - 6.   
 You can call individual product-ids, for example, by typing <https://pricesample.mybluemix.net/price/1>    
 <img src="images/Screen Shot 2019-07-31 at 9.20.42 AM.png">         
-###Product Lookup    
+### Product Lookup    
 Run the price sample application by typing <https://lookup-price.mybluemix.net/api/products/lookupPrice?productId=1>   
 This application uses the price sample backend that returns an individual product-id shown earlier.   
 <img src="images/Screen Shot 2019-07-31 at 9.27.58 AM.png">   
-###Summary
+### Summary
 This document describes how to manually create the sample applications on the IBM Cloud by cloning them from Github.   
 Kevin has been working with IBM Cloud Support who have offered an alternative way to migrate these applications to another Cloud user account.   
 The solution involves adding a sub user to the original account. Then, IBM Support will make the sub-user the new owner of the Cloud Foundry applications.
