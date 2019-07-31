@@ -15,9 +15,9 @@ Cloud account type:
 Your account type must be **Pay-As-You-Go**.  
 ## Navigation
 Click the Navigation icon in the menu.  
-<img src="images/Screen Shot 2019-07-12 at 2.13.50 PM.png" width="35%" height="35%">  
+<img src="images/Screen Shot 2019-07-12 at 2.13.50 PM.png">  
 The list of options is displayed.  
-<img src="images/Screen Shot 2019-07-12 at 2.19.15 PM.png" width="50%" height="50%" style="border:1px solid black">    
+<img src="images/Screen Shot 2019-07-12 at 2.19.15 PM.png" style="border:1px solid black">    
 This menu is referred to as the *side navigation menu* in this document.
 ## Add an organization and space
 In this part, you add a Cloud Foundry organization and space to the account. The organization and space is required later when you create a Toolkit.  
