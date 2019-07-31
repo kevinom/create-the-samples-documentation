@@ -39,7 +39,7 @@ Select the **US South** region and give the name **api-space** to the space. The
 <img src="images/Screen Shot 2019-07-15 at 4.14.09 PM.png">    
 The space is added to the organization.
 <img src="images/Screen Shot 2019-07-15 at 4.16.46 PM.png">  
-##The applications that you are going to build
+## The applications that you are going to build
 The part describes the applications that you are about to build with the IBM Cloud Toolchains.  
 
 | Application name    | IBM Cloud URL   | Where used in course   |
@@ -222,7 +222,7 @@ The application deployed, but did not start successfully because the route is al
 **NOTE:** You change the application name to **pricesample** later.  
 You will need to coordinate the removal of the existing URL route for the sample and the application name change.
 ***   
-##Create the toolchain for the fourth sample (lookup-price)
+## Create the toolchain for the fourth sample (lookup-price)
 Click the navigation icon on the page. Then, click the **DevOps** option from the *side navigation menu*.  
 The toolchains page is displayed.  
 Set **Location** to *Dallas*.  
