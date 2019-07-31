@@ -286,7 +286,7 @@ The application route defaults to a route that includes the toolchain name. You 
 | api-samples-soap-toolchain    | soapsample.mybluemix.net       | 
 | api-samples-pricing-setup-toolchain   | pricesample.mybluemix.net        |   
 | api-samples-lookup-price-toolchain   | lookup-price.mybluemix.net |   
-You change the application route for a toolchain in the XXX DevOps process.   
+You change the application route for a toolchain in the DEPLOY DevOps process.   
 You must be signed on to you Cloud account.   
 Then, select *DevOps* from the navigation menu. You see the toolchain landing page.   
 Select **Dallas** under Location.   
