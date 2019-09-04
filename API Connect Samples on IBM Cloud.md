@@ -299,8 +299,10 @@ Click the *Stage Configuration* icon for the **DEPLOY** stage. This is a cog ico
 <img src="images/Screen Shot 2019-07-31 at 9.59.48 AM.png">       
 In the configuration, navigate to the *Application Name*. Then, change the name from the toolchain name to the corresponding API Connect sample name that is shown in the previous table. 
 <img src="images/Screen Shot 2019-07-31 at 10.02.59 AM.png">      
-Save the change.              
-## What the samples look like when running on the IBM Cloud
+Save the change.    
+
+## What the samples look like when running on the IBM Cloud  
+
 ### SOAP Sample
 Run the soap sample application from <http://soapsample.mybluemix.net>  
 When you click getInventory, the correct response is shown:
